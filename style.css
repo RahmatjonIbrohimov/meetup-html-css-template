@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+
+.navbar {
+    background-color: #0066cc;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 20px 50px;
+}
+
+.nav_items {
+    /* margin-top: 600px; */
+    list-style-type: none;
+    color: black;
+    position: fixed;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #f70968;
+    font-size: 100px;
+}
+
+.container-fluid {
+    background: #0066cc;
+    display: flex;
+    flex-direction: row;
+    padding-left: 75px;
+    width: 100%;
+    height: 600px;
+}
+
+
+.img-meetup {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 60px;
+}
+
+#main_h3 {
+    color: aliceblue;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.main_data {
+    color: #0099ff;
+    margin-bottom: 80px;
+}
+
+#button-ticket-buy {
+    background-color: #cc3300;
+    color:floralwhite;
+    width: 245px;
+    font-family: 'Victor Mono', monospace;
+}
+
+#button-ticket-buy:hover {
+    background-color: black;
+    color: #007bff;
+    width: 250px;
+}
+
+.img-rocket-pow {
+    margin-top: 70px;
+    padding-left: 80px;
+    width: 500px;
+    height: 450px;
+    animation: rocket 2.6s infinite  ;
+
+}
+
+@keyframes rocket {
+    0% {
+        transform: translateY(0px);
+      }
+      60% {
+        transform: translateY(50px);
+      }
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+
+}
+
+.display-ticket {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Victor Mono', monospace;
+}
+#solid-ticket {
+    padding-left: 50px;
+    padding-right: 29px;
+    font-size: 80px;
+}
+
+.info-ticket {
+    text-align: center;
+}
+
+h3 {
+    color: hsl(205, 88%, 20%);
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    width: 300px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.card {
+    background-color: rgb(245, 242, 242);
+    margin: 110px 0 120px 150px;
+    align-items: center;
+    border-radius: 15px;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover  {
+    transform: translate(0, -3px);
+}
+
+
+.card:nth-child(2) {
+    transform: scale(1.2);
+    margin-left: 80px;
+}
+
+.card:nth-child(2):hover  {
+    transform: scale(1.2) translate(0, -3px);
+}
+
+.card:nth-child(3) {
+    transform: scale(1.1);
+    margin-left: 80px;
+}
+
+.card:nth-child(3):hover  {
+    transform: scale(1.1) translate(0, -3px);
+}
+
+.card-img {
+    margin-top: 10px;
+    width: 130px;
+    border-radius: 55%;
+    border: 5px solid #4f4f6e;
+    transform: translate(0, -60px);    
+}
+
+
+.card-person-name {
+    text-align: center;
+    font-size: 25px;
+    /* font-family: 'Signika', sans-serif; */
+    /* font-family: 'Comfortaa', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Tektur', cursive; */
+    font-family: 'Victor Mono', monospace;
+}
+
+.card-person-name:hover {
+    transform: translate(0, -3px);
+}
+
+.person-info-text {
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Signika', sans-serif;
+}
+
+#icons-person-site {
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: #3b6186;
+}
+
+#icons-person-site:hover {
+    transform: translate(0, -3px);
+}
+
+.buy-ticket-container {
+    background-color: rgb(250, 250, 64);
+    align-items: center;
+}
+
+.type-tickets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bird-ticket {
+    font-size: 25px;
+    font-family: 'Tektur', cursive;
+}
+
+.ticket-price {
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.days-meetup {
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+#days-ticket-buy-button {
+    background-color: #85cc00;
+    color:floralwhite;
+    width: 260px;
+    font-family: 'Victor Mono', monospace;
+    margin-bottom: 30px;
+}
+
+#days-ticket-buy-button:hover {
+    background-color: black;
+    color: #ff6600;
+    width: 260px;
+}
+
+.footer {
+    display: flex;
+    background-color: #414144;
+    /* justify-content: space-between; */
+}
+
+#footer-contact-logo {
+    margin: 35px 0 30px 300px;
+    font-size: 30px;
+}
+
+.name-form {
+    margin-left: 232px;
+}
+
+.name-form-e {
+    margin-left: 231px;
+}
+
+.name-form-t {
+    margin-left: 235px;
+}
+
+
+#form-contact {
+    display: inline-block;
+    background-color: rgb(217, 223, 204);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 340px;
+    align-items: center;
+}
+
+#form-contact-text {
+    display: inline-block;
+    background-color: rgb(217, 223, 204);
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    width: 340px;
+}
+
+#contact-submit-button {
+    margin-left: 550px;
+    border-radius: 8px;
+}
+
+#contact-submit-button:hover {
+    background-color: #0066cc;
+    font-size: 17px;
+    margin-left: 548px;
+    border-radius: 8px;
+}
+
+.twit-feed {
+    margin:30px 0 0 200px;
+    width: 500px;
+}
+
+#footer-twit-logo {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.full-color {
+    padding: 1px;
+    color: #414144;
+    background-color: #414144;
+}
